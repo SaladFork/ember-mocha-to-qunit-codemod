@@ -3,5 +3,8 @@
   "version": "0.1.0",
   "repository": "https://github.com/SaladFork/ember-mocha-to-qunit-codemod",
   "author": "Elad Shahar <elad@eladshahar.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "jscodeshift": "^0.3.30"
+  }
 }
