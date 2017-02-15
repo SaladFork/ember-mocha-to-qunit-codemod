@@ -6,6 +6,15 @@ A codemod script for transforming an [Ember.js](https://github.com/emberjs/ember
 
 ## Usage
 
+
+## Contributing
+
+### Running all tests
+```bash
+$ npm test
+```
+
+### Running on a single file
 ```bash
 $ jscodeshift -t transform.js test/empty-unit-test/input.js -d -p
 ```
